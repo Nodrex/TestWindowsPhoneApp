@@ -29,7 +29,7 @@ namespace TestWindowsPhoneApp
             this.InitializeComponent();
 
             DrawerLayout.InitializeDrawerLayout(); //Intialize drawer  
-            string[] menuItems = new string[5] { "Favorite 1", "Faverote 2", "Favorite 3", "Favorite 4", "Favorite 5" };
+            string[] menuItems = new string[5] { "Item 1", "Faverote 2", "Favorite 3", "Favorite 4", "Favorite 5" };
             ListMenuItems.ItemsSource = menuItems.ToList();  //Set Menu list  
 
 
